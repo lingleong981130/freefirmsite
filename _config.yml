@@ -1,13 +1,13 @@
 # Welcome to your law firm website. Change the values in this file to configure your site. 
 
 # The name of your law firm
-title: Free Firm Site LLP
+title: The Law Office of Jennifer G. Morton, PLLC
 
 # The email address of your law firm. Messages sent using the contact form will arrive at this address.
-email: "pieter@legal.io"
+email: "jennifer@jennifermortonlaw.com"
 
 # The phone number of your law firm. This will be displayed on the website.
-phone: "+1 650 391 0000"
+phone: "713-371-8495"
 
 # The description of your website. This will be displayed in the footer of the website
 description: >- # this means to ignore newlines until "baseurl:"
