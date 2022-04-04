@@ -85,7 +85,7 @@
   <body>
   	{%- include header.html -%}
     
-    <form class="form-signin" action="https://formspree.io/{{site.email}}" method="POST">
+    <form class="form-signin" action="{{site.formspreeaction}}" method="POST">
           <input type="hidden" name="_next" value="/"/>
 
           <div class="text-center mb-4">
