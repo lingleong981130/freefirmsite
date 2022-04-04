@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Attorneys
+title: About Jennifer
 ---
 
-# Attorneys
+# About Jennifer
 <div class="card-deck">
 	{% for attorney in site.data.attorneys %}
 		  <div class="card my-3" style="min-width: 30%;">
-		    	<img src="assets/images/{{ attorney.picture }}" class="card-img" alt="...">
+		    	<img src="assets/images/{{ attorney.picture }}" class="card-img" alt="..." style="min-width:30%;max-width:60%">
 		  		<div class="card-body">
 		  			<h5 class="card-title">{{ attorney.name }}</h5>
 		  			<p class="card-text">{{ attorney.bio }}</p>
