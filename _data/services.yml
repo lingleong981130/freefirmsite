@@ -1,2 +1,10 @@
 - name: Estate Planning Services
-  description: Depending on your assets and goals, your estate plan may include Wills, Trusts, Statutory Durable Powers of Attorney, Medical Powers of Attorney, Guardianship Designations, Advance Directives
+  description: >
+    Depending on your assets and goals, your estate plan may include 
+    <ul>
+    <li>Wills
+    <li>Trusts
+    <li>Statutory Durable Powers of Attorney
+    <li>Medical Powers of Attorney
+    <li>Guardianship Designations
+    <li>Advance Directives
