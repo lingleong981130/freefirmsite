@@ -13,3 +13,14 @@ body {
 .navbar-brand {
   white-space: normal;
 }
+
+@media screen and (max-width: 991px) {
+  img.card-img {
+      max-width: 60% !important;
+      /* text-align: center; */
+      justify: center;
+      /* align-items: center; */
+      margin-left: 50%;
+      transform: translateX(-50%);
+  }
+}
