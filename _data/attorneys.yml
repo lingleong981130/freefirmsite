@@ -1,5 +1,7 @@
 - name: Jennifer Morton
-  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien.
+  bio: >
+    Jennifer G. Morton graduated from the University of Houston Law Center in 2012. She obtained a masters degree in bioengineering from Rice University and a bachelor’s degree from Louisiana State University. While in law school, she was published in the Houston Journal of Health Law & Policy.
+    <br>After beginning her legal career in Intellectual Property Law, Jennifer switched her focus to Estate Planning.  In 2019, she opened The Law Office of Jennifer G. Morton, PLLC in Pearland, Texas with the hopes of helping families plan to take care of loved ones left behind.
   picture: jennifer.jpg
   email: jennifer@jennifermortonlaw.com
   phone: "832-324-9469"
