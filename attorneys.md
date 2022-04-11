@@ -14,7 +14,7 @@ title: About Jennifer
 		  		</div>
 				<ul class="list-group list-group-flush">
 				    <li class="list-group-item">Email: <a href="mailto:{{ attorney.email }}">{{ attorney.email }}</a></li>
-				    <li class="list-group-item">Call: {{ attorney.phone }}</li>
+				    <li class="list-group-item">Call: <a href="tel:{{ attorney.phone }}">{{ attorney.phone }}</a></li>
 				</ul>
 		  </div>
 	{% endfor %}
