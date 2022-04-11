@@ -22,8 +22,17 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 547px) {
   .navbar-brand {
     font-size: 0.8em;
   }
+}
+
+nav {
+    white-space:nowrap;
+    width: 100%;
+}
+
+.navbar-brand {
+    width: calc(100% - 100px);
 }
