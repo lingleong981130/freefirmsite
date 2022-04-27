@@ -10,3 +10,11 @@
     <li>Guardianship Designations</li>
     <li>Advance Directives</li>
     </ul>
+
+- name: Probate Services
+  description: >
+    <ul>
+    <li>Probate of Wills</li>
+    <li>Affadavits of Heirship</li>
+    <li>Heirships</li>
+    </ul>
