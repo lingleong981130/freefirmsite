@@ -45,16 +45,31 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="/contact" class="text-info">Contact</a>
+            <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
           </li>
           <li>
             <p class="">{{site.address_1}}<br>{{site.address_2}}</p>
+          </li>
+          <li>
+            <a href="http://m.me/{{site.socials.facebook}}" style="display:none;visibility:hidden">Contact me on FB Messenger</a>
+          </li>
+          <li>
+            <a href="/contact" class="text-info">Contact Form</a>
           </li>
         </ul>
 
       </div>
       <!-- Grid column -->
 
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <a href="https://facebook.com/{{site.socials.facebook}}"><img src="/assets/images/f_logo_RGB-Black_72.png" style="max-height:36px"></a>
+
+      </div>
     </div>
     <!-- Grid row -->
 

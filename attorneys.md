@@ -15,6 +15,8 @@ title: About Jennifer
 				<ul class="list-group list-group-flush">
 				    <li class="list-group-item">Email: <a href="mailto:{{ attorney.email }}">{{ attorney.email }}</a></li>
 				    <li class="list-group-item">Call: <a href="tel:{{ attorney.phone }}">{{ attorney.phone }}</a></li>
+					<li class="list-group-item">Facebook Messenger: <a href="http://m.me/{{site.socials.facebook}}">Click Here</a></li>
+					<li class="list-group-item"><a href="http://facebook.com/{{site.socials.facebook}}"><img src="/assets/images/f_logo_RGB-White_72.png" style="max-height:36px"></a></li>
 				</ul>
 		  </div>
 	{% endfor %}

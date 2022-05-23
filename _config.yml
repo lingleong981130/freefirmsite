@@ -41,6 +41,8 @@ plugins:
 collections:
   - posts
 
+socials:
+  facebook: 'jennifermortonlaw'
 #baseurl: "/lawofficeofjennifermortonpllc" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
