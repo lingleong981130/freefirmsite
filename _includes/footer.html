@@ -45,13 +45,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a onclick="gtag('event', 'contact', {'method':'phone'})" href="tel:{{ site.phone }}">{{ site.phone }}</a>
+            <a onclick="gtag('event', 'phone', {'event_category':'contact'})" href="tel:{{ site.phone }}">{{ site.phone }}</a>
           </li>
           <li>
             <p class="">{{site.address_1}}<br>{{site.address_2}}</p>
           </li>
           <li>
-            <a onclick="gtag('event', 'contact', {'method':'fbmessenger'})" href="http://m.me/{{site.socials.facebook}}" style="display:none;visibility:hidden">Contact me on FB Messenger</a>
+            <a onclick="gtag('event', 'fbmessenger', {'event_category':'contact'})" href="http://m.me/{{site.socials.facebook}}" style="display:none;visibility:hidden">Contact me on FB Messenger</a>
           </li>
           <li>
             <a href="/contact">Contact Form</a>
