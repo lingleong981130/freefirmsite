@@ -92,8 +92,8 @@
 
           <div class="text-center mb-4">
             <h1 class="h3 mb-3 font-weight-normal">Contact</h1>
-            <p>Call me at <a onclick="gtag('event', 'phone', {'event_category':'contact'})" href="tel:{{site.phone}}">{{site.phone}}</a></p>
-            <p><a onclick="gtag('event', 'fbmessenger', {'event_category':'contact'})" href="http://m.me/{{site.socials.facebook}}">Message me</a> via Facebook Messenger.</p>
+            <p>Call me at <a onclick="gtag('event', 'phone', {'event_category':'contact', 'value': 1 })" href="tel:{{site.phone}}">{{site.phone}}</a></p>
+            <p><a onclick="gtag('event', 'fbmessenger', {'event_category':'contact', 'value': 1 })" href="http://m.me/{{site.socials.facebook}}">Message me</a> via Facebook Messenger.</p>
             <p>Or leave a message below and I'll reach out to you shortly.</p>
           </div>
           <div class="form-label-group">
@@ -112,7 +112,7 @@
             <textarea rows="2" name="message" id="inputMessage" class="form-control" placeholder="Message" required=""></textarea>
           </div>
 
-          <button class="btn btn-lg btn-darker btn-block" type="submit" onclick="gtag('event', 'contact_form', {'event_category':'contact'})" value="Send" id="postme"> Send Message</button>
+          <button class="btn btn-lg btn-darker btn-block" type="submit" onclick="gtag('event', 'contact_form', {'event_category':'contact', 'value': 1 })" value="Send" id="postme"> Send Message</button>
           <p class="mt-3 mb-3 text-muted text-center"><a href="/">Return to Homepage</a></p>
         </form>
 
