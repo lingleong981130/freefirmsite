@@ -11,8 +11,8 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase">{{ site.title | escape }}</h5>
-        <p class="">{{- site.description | escape -}}</p>
+        <h5 class="text-uppercase">{{ site.brief_title | escape }}</h5>
+        <p class="">{{- site.description_on_page | escape -}}</p>
 
       </div>
       <!-- Grid column -->
@@ -79,7 +79,7 @@
   <!-- Copyright -->
   <hr>
   <div class="container footer-copyright text-secondary py-4">© {{ 'now' | date: "%Y" }}
- Copyright: {{site.title}}. {{site.disclaimer}}
+ Copyright: {{site.brief_title}}. {{site.disclaimer}}
   </div>
   <!-- Copyright -->
 
