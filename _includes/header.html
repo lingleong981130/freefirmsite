@@ -16,6 +16,16 @@
         <li class="nav-item">
           <a class="nav-link {% if page.title == 'Services' %}active{% endif %}" href="/services">Services</a>
         </li>
+        <li class="nav-item" style="position:relative;display:none;visibility:hidden;">
+            <a class="nav-link dropdown-toggle" id="servicesButton">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="servicesButton">
+              <a class="nav-link dropdown-item" href="/services/wills">Wills</a>
+              <a class="nav-link dropdown-item" href="/services/trusts">Trusts</a>
+              <a class="nav-link dropdown-item" href="/services/probate">Probate</a>
+            </div>
+        </li>
       </ul>
 
     <form class="form-inline my-2 ml-2 my-lg-0">

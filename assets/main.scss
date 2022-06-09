@@ -15,3 +15,17 @@ a {
 footer a {
     color: #007bff;
 }
+
+body {
+    overflow-x:hidden;
+}
+
+.dropdown-menu {
+    background-color: #e0e0db;
+    border: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    .nav-link.dropdown-item {
+        padding-left: 10px;
+    }
+}
