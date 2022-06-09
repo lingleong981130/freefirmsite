@@ -12,6 +12,14 @@
   <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-225707707-1"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.dropdown-toggle').on('click', function(t) {
+          $(this).siblings('div').toggle('open')
+        })
+        
+    });
+  </script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
